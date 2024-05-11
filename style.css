@@ -329,6 +329,11 @@ a {
     .content-two__sec{
         width: 70%;
     }
+         .footer-one, .footer-two, .footer-three, .footer-three__child, .footer-four__copy, .footer-four__foot{
+        display: none;
+        padding: 10px;
+    } 
+	
 }
 
 @media screen and (max-width:600px){
@@ -372,5 +377,9 @@ a {
     .catagories-fo img{
         margin-top: 12px;
     }
-    
+
+    .footer-one, .footer-two, .footer-three, .footer-three__child, .footer-four__copy, .footer-four__foot{
+        display: none;
+        padding: 10px;
+    }
 } 
